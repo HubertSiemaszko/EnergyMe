@@ -83,6 +83,7 @@ export interface ScheduleBlock {
   zone: 'high' | 'medium' | 'low';
   suggestion: string;
   emoji: string;
+  tips: string[] | null;
 }
 
 export interface ScheduleResponse {

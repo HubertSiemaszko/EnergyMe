@@ -131,6 +131,7 @@ class ScheduleBlock(BaseModel):
     zone: str           # "high", "medium", "low"
     suggestion: str
     emoji: str
+    tips: list[str] | None = None  # remedial tips for low-energy hours
 
 
 class ScheduleResponse(BaseModel):
